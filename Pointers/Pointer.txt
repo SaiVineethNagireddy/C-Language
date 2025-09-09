@@ -1,0 +1,19 @@
+C Pointers
+
+   A pointer is a variable that stores the memory address of another variable as its value.
+   A pointer variable points to a data type (like int) of the same type, and is created with the * operator.
+   The address of the variable you are working with is assigned to the pointer:
+
+   Example:
+            #include<stdio.h>
+            int main()
+            {
+                int a=30;
+                int* ptr=&a;
+
+                printf("%d \n", a);
+                printf("%p \n",&a);//gives the memory address by using &
+                printf("%p",ptr);//gives the memory address by using the pointer that we created
+
+                return 0;
+            }
