@@ -1,0 +1,50 @@
+C Functions
+
+    A function is a block of code which only runs when it is called.
+    You can pass data, known as parameters, into a function.
+    Functions are used to perform certain actions, and they are important for reusing code: Define the code once, and use it many times.
+
+There are two types of Functions:
+ 1.PreDefined
+ 2.UserDefined
+
+ Predefined Functions:
+
+    So it turns out you already know what a function is. You have been using it the whole time while studying this tutorial!
+    For example, main() is a function, which is used to execute code, and printf() is a function; used to output/print text to the screen:
+Example:
+        #include<stdio.h>
+        int main()
+        {
+            printf("Hello");
+            return 0;
+        }
+    
+Create a Function:
+    To create (often referred to as declare) your own function, specify the name of the function, followed by parentheses () and curly brackets {}:
+syntax:
+        void myFunction() 
+        {
+          // code to be executed
+        }
+
+myFunction() is the name of the function
+void means that the function does not have a return value. You will learn more about return values later in the next chapter
+Inside the function (the body), add code that defines what the function should do
+
+C Function Parameters:
+    Information can be passed to functions as a parameter. Parameters act as variables inside the function.
+    Parameters are specified after the function name, inside the parentheses. You can add as many parameters as you want, just separate them with a comma:
+syntax:
+       returnType functionName(parameter1, parameter2, parameter3) 
+        {
+        // code to be executed
+        } 
+
+C Variable Scope:
+    There are two types in scope 
+     1.local
+     2.global
+
+local: Which is declared inside of the function and it can be only used by the function
+Global: This is created outside the function and can be accessed by all.
