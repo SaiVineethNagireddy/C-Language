@@ -1,0 +1,20 @@
+Operators
+Operators are used to perform operations on variables and values.
+In the example below, we use the + operator to add together two values:
+
+Example:
+      #include <stdio.h>
+      int main() 
+    {
+      int myNum = 100 + 50;
+      printf("%d", myNum);
+      return 0;
+    }
+
+ C divides the operators into the following groups:
+
+1. Arithmetic operators
+2. Assignment operators
+3. Comparison operators
+4. Logical operators
+5. Bitwise operators
