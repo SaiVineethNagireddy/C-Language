@@ -23,7 +23,7 @@ This repo 📂 contains my notes, practice codes, and mini-projects as I explore
 ✔️ Strings (`Strings`)  
 ✔️ Pointers (`Pointers`)  
 ✔️ Functions (`Functions`)  
-✔️ Structures,Unions & Enums (`Structures&Union`)  
+✔️ Structures,Unions & Enums (`Structures,Union&Enums`)  
 ✔️ File Handling (`Files`)  
 ✔️ Random Numbers (`Random Numbers`)  
 ✔️ Patterns (`patterns`)  
