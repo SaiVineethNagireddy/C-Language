@@ -1,0 +1,8 @@
+Arrays
+
+1.Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
+2.To create an array, define the data type (like int) and specify the name of the array followed by square brackets [].
+3.To insert values to it, use a comma-separated list inside curly braces, and make sure all values are of the same data type:
+
+Sample:
+int myNumbers[] = {25, 50, 75, 100};
