@@ -1,0 +1,21 @@
+C Structures (structs):
+    Structures (also called structs) are a way to group several related variables into one place.
+    Each variable in the structure is known as a member of the structure.
+    Unlike an array, a structure can contain many different data types (int, float, char, etc.).
+
+Create a Structure:
+    You can create a structure by using the struct keyword and declare each of its members inside curly braces:
+Syntax:
+    struct MyStructure 
+    {                        // Structure declaration
+        int myNum;           // Member (int variable)
+        char myLetter;       // Member (char variable)
+    };                       // End the structure with a semicolon
+
+
+C Unions:
+    A union is similar to a struct in that it can store members of different data types.
+However, there are some differences:
+In a struct, each member has its own memory.
+In a union, all members share the same memory, which means you can only use one of the values at a time.
+
