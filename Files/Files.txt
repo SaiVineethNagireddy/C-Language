@@ -1,0 +1,21 @@
+In C programming, files are used to store data permanently on a disk rather than in RAM (which is temporary and lost after the program ends). The File I/O (Input/Output) in C is handled using the standard library <stdio.h>.
+
+ Why Use Files?
+    Persistent Storage: Unlike variables, data in files is not lost when the program ends.
+    Data Sharing: Can be used to share data between programs or sessions.
+    Handling Large Data: You can store and manage large amounts of data easily.
+
+Types of File Access in C:
+    There are two types of file access:
+      Text files – Stored as readable characters.
+      Binary files – Stored in binary format (more compact and faster to read/write).
+
+Types of File Access in C:
+    There are two types of file access:
+    Text files – Stored as readable characters.
+    Binary files – Stored in binary format (more compact and faster to read/write).
+
+In C, you can create, open, read, and write to files by declaring a pointer of type FILE, and use the fopen() function:
+syntax:
+    FILE *fptr;
+fptr = fopen(filename, mode);
